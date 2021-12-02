@@ -4,22 +4,20 @@ body {
     margin: auto;
 }
 
-#logo {
-    background-color: white;
+
+#navtext {
+    font-family: 'Liberation Serif' serif;
+    font-size: 100px;
+    max-width: 450px;
 }
 
 .navbar {
-    align-content: center;
-    align-items: center;
     box-shadow: 0px 0px 6px black;
     background-color: #92603e;
 }
 
 .navbar .navbar-nav {
-    align-content: center;
-    align-items: center;
     margin: auto;
-
 }
 
 .topsection {
@@ -46,11 +44,10 @@ body {
     font-size: 50px;
 
     z-index: 2;
-    font-family: 'Puppies Play', cursive;
+    font-family: 'Liberation Serif' serif;
 }
 
 .boutique {
-    padding: 10px;
     background-color: #bd9d71;
 }
 
