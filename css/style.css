@@ -2,23 +2,26 @@
 
 body {
     margin: auto;
-    animation:scale-in-ver-center .5s cubic-bezier(.25,.46,.45,.94) both
+    font-family: 'Liberation Serif' serif;
+}
+
+#imagenav {
+    background-image: url("../img/navimage.png");
+}
+
+#navtext {
+    font-size: 100px;
+
+}
+
+#navlogo {
+    width: 10%;
 }
 
 .navbar {
-    /*background-image: url("../img/image.webp");*/
-    height: 80px;
-    align-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 6px black;
-    background-color: white;
+    background-color: #663b1e;
 }
 
-.navbar .navbar-nav {
-    align-content: center;
-    align-items: center;
-    margin: auto;
-}
 
 .topsection {
     background-image: url("../img/image.webp");
@@ -44,11 +47,10 @@ body {
     font-size: 50px;
 
     z-index: 2;
-    font-family: 'Puppies Play', cursive;
+    font-family: 'Liberation Serif' serif;
 }
 
 .boutique {
-    padding: 10px;
     background-color: #bd9d71;
 }
 
@@ -56,5 +58,14 @@ body {
     width: 40%;
 }
 
+@keyframes scale-in-ver-center{0%{transform:scaleY(0);opacity:1}100%{transform:scaleY(1);opacity:1}}
 
- @keyframes scale-in-ver-center{0%{transform:scaleY(0);opacity:1}100%{transform:scaleY(1);opacity:1}}
+.pr-5 {
+    padding-left: 5rem;
+}
+
+.pb-13 {
+    padding-bottom: 13rem;
+}
+
+
