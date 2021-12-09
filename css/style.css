@@ -2,7 +2,7 @@
 
 body {
     margin: auto;
-    font-family: 'Liberation Serif' serif;
+    font-family: 'Liberation Serif';
 }
 
 #imagenav {
@@ -11,7 +11,6 @@ body {
 
 #navtext {
     font-size: 100px;
-
 }
 
 #navlogo {
@@ -67,5 +66,4 @@ body {
 .pb-13 {
     padding-bottom: 13rem;
 }
-
 
