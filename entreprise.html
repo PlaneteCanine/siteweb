@@ -1,278 +1,292 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Planète Canine</title>
-        <link rel="stylesheet" href="chien.css">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link type="text/css" rel="stylesheet" href="css/mainstyle.css">
+<head>
+  <title> Planète Canine</title>
+  <link rel="stylesheet" href="chien.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="css/mainstyle.css">
 
 
-    </head>
-    <body>
+</head>
 
-      <!-- Nav Bar -->  
+<body>
+
+  <!-- Nav Bar -->
+  <div class="container-fluid">
+
+    <!--Partie logo image de la Navbar-->
+    <a id="logo" class="position-absolute pr-5 pb-3" href="#"><img src="img/logo/logo-bgremoved.png" alt=""></a>
+
+    <div class="row" id="imagenav">
+      <div class="mb-3 m-auto text-light pb-13 pe-2" style="width: auto">
+        <h1 class="text-uppercase" id="navtext">Planete Canine</h1>
+      </div>
+    </div>
+
+    <!--Barre de navigation-->
+    <div class="row">
+      <nav class="pr-5 navbar navbar-expand shadow">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-lg-0">
+
+            <li class="nav-item px-3">
+              <a class="nav-link active" href="./index.html">Acceuil</a>
+            </li>
+
+            <li class="nav-item dropdown px-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Boutique</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./shop.html#alimentation">
+                  <li>Alimentaire</li>
+                </a>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <a class="dropdown-item" href="./shop.html#hygiene">
+                  <li></li>Hygiène
+            </li></a>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <a class="dropdown-item" href="./shop.html#accessoire">
+              <li></li>Accessoire</li>
+            </a>
+          </ul>
+          </li>
+
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Prevention</a>
+          </li>
+
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              A Propos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Qui sommes nous ?</a></li>
+              <li><a class="dropdown-item" href="#">Nos Locaux</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown px-3">
+            <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Se Connecter
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid py-5 preventiontext" style="background-color: #bd9d71;                  ">
+    <div class="container py-2">
+      <p id="Titre">
+        Présentation de l'entreprise
+      </p>
+      <p id="sous-titre">
+        Fiche d'Identité
+      </p>
+      <p id="sous-titre2">
+        Notre équipe :
+      </p>
+      <p id="équipe">
+        <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise1.png" height="280" width="210">
+        <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise2.png" height="280" width="210">
+        <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise3.png" height="280" width="210">
+        <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise4.png" height="280" width="210">
+      </p>
       <div class="container-fluid">
 
-        <!--Partie logo image de la Navbar-->
-        <a id="logo" class="position-absolute pr-5 pb-3" href="#"><img src="img/logo-removebg-preview.png" alt=""></a>
-
-        <div class="row" id="imagenav">
-          <div class="mb-3 m-auto text-light pb-13 pe-2" style="width: auto">
-              <h1 class="text-uppercase" id="navtext">Planete Canine</h1>
-          </div>
-        </div>
-
-        <!--Barre de navigation-->
         <div class="row">
-          <nav class="pr-5 navbar navbar-expand shadow">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">Nom Commercial</p>
+          </div>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-lg-0">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">Planète Canine</p>
+          </div>
 
-                <li class="nav-item px-3">
-                  <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
-                </li>
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
 
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Boutique
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
 
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#">Prevention</a>
-                </li>
-
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Qui sommes nous ?
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Se Connecter
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </nav>
         </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+          <div class="col-2 bg-dark py-3">
+            <p class="text-light text-center">ttt</p>
+          </div>
+
+        </div>
+
       </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 
 
-                  <div class="container-fluid py-5 preventiontext" style="background-color: #bd9d71;                  ">
-                        <div class="container py-2">                                                                                                           
-                                <p id="Titre">
-                                    Présentation de l'entreprise                                     
-                                </p>
-                                <p id="sous-titre">
-                                    Fiche d'Identité
-                                </p>
-                                <p id="sous-titre2">
-                                    Notre équipe :
-                                </p>
-                                <p id="équipe">
-                                    <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise1.png"height="280" width="210">
-                                    <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise2.png"height="280" width="210">
-                                    <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise3.png"height="280" width="210">
-                                    <img src="C:\Users\SIO.MANAUTL\Desktop\site SAM\entreprise4.png"height="280" width="210">                                   
-                                </p>
-                                <div class="container-fluid">
-                                  
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">Nom Commercial</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">Planète Canine</p>
-                                    </div>
+</body>
 
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-                                      
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                    <div class="col-2 bg-dark py-3">
-                                      <p class="text-light text-center">ttt</p>
-                                    </div>
-
-                                  </div>
-
-                                </div>                                                                
-                        </div>
-                  </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
-    </body>
 </html>
