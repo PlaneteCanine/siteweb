@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap');
+
+body {
+    margin: auto;
+    font-family: 'Liberation Serif';
+}
+
+#imagenav {
+    background-image: url("../img/navimage.png");
+}
+
+#navtext {
+    font-size: 100px;
+}
+
+#navlogo {
+    width: 10%;
+}
+
+.navbar {
+    background-color: #663b1e;
+}
+
+
+.topsection {
+    background-image: url("../img/image.webp");
+
+
+    min-height: 500px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    display: flex;
+
+    text-align: center;
+    justify-content: center;
+
+    /*background-color: rgb(40, 102, 173);*/    
+}
+
+
+.topsection p {
+    text-align: center;
+
+    font-size: 50px;
+
+    z-index: 2;
+    font-family: 'Liberation Serif' serif;
+}
+
+.boutique {
+    background-color: #bd9d71;
+}
+
+.image {
+    width: 40%;
+}
+
+@keyframes scale-in-ver-center{0%{transform:scaleY(0);opacity:1}100%{transform:scaleY(1);opacity:1}}
+
+.pr-5 {
+    padding-left: 5rem;
+}
+
+.pb-13 {
+    padding-bottom: 13rem;
+}

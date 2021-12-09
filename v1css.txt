@@ -1,0 +1,96 @@
+body {
+    position: relative;
+
+    color: rgb(0, 255, 55);
+    background-color: rgb(69, 65, 87);
+    text-align: center;
+
+}
+
+.maintext {
+
+    margin: auto;
+    position: absolute;
+    /**width: 738px;*/
+    width: 47%;
+    height: 64%;
+
+    left: 32%;
+    top: 20%;
+
+    background-color: black;
+    border: 0.005cm dashed orange;
+    box-sizing: border-box;
+}
+
+.maintext ul li {
+    color: rgb(219, 114, 16) !important;
+}
+
+.left {
+    margin: auto;
+    width: 10%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    background-color: black;
+    border: 1px dashed orange;
+    box-sizing: border-box;
+}
+
+.left1 {
+    position: relative;
+    right: 25%;
+}
+
+.left2 {
+    position: relative;
+    right: 25%;
+}
+
+.left3 {
+    position: relative;
+    right: 25%;
+}
+
+
+header img {
+    position: relative;
+    border: 1px dashed orange;
+    box-sizing: border-box;
+
+    height: 10%;
+    margin: auto;
+    width: 58%;
+}
+
+footer {
+    margin: auto;
+    width: 58%;
+    
+    border: 1px dashed orange;
+    box-sizing: border-box;
+    
+    color: orange;
+    background-color: black;
+}
+
+
+/** INDIVIDUAL SETTINGS */
+
+ul {
+    color: yellow !important;
+}
+
+a {
+    color: yellow !important;
+    text-decoration: none;
+}
+
+h3 {
+    color: rgb(59, 59, 190) !important;
+}
+
+.sideul {
+    text-align: left !important;
+}

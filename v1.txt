@@ -1,0 +1,90 @@
+		<header>
+			<img src="image.webp">
+		</header>
+		<br>
+		<div class="leftside">
+			<div class="left left1">				
+				<h3>Nos produits Alimentaire</h3>
+				<ul class="sideul">
+					<li><a href="#">royal canin</a></li>
+					</ul>
+			</div>
+		
+			<br>
+
+			<div class="left left2">				
+				<h3>Nos accessoires</h3>
+				<ul class="sideul">
+					<li><a href="#">Tenue pour mordant haute qualités </a></li>
+					<li><a href="#">Colliers avec un systeme GPS</a></li>
+					<li><a href="#">Harnais haute qualités</a></li>
+					<li><a href="#">Gamel lente</a></li>
+          <li><a href="#">niche d'interieur automatique</a></li>
+          <li><a href="#">Distibuteurs</a></li>
+					<li><a href="#">Vari kennel</a></li>
+				</ul>
+			</div>
+
+      <div class="left left3">				
+				<h3>Nos produits d'hygiène et soins</h3>
+				<ul class="sideul">
+					<li><a href="#">Dentrifice à la sauge </a></li>
+					<li><a href="#">Shampoing problèmes de peau à l'avoine dorwest</a></li>
+					<li><a href="#">Comprimés chien haleine et dents biofood</a></li>
+					<li><a href="#">Soins des oreilles, Propolis, Calendula et Tea Tree propolia</a></li>
+          <li><a href="#">Sticks à macher WOOFBRUCH Lili's kitchen</a></li>
+          <li><a href="#">Bois de cerf pour chien entier evident</a></li>
+				</ul>
+			</div>
+
+
+
+		</div>
+		
+				</div>
+				<div class="maintext produit">
+
+					<h2>Produit Alimentaire</h2>	
+			 
+				<li><img src="image8.png"> 55,99€</a></li>
+				<li><img src="image9.png"> 55,95€</a></li>
+				<li><img src="image1.png"> 39,99€</a></li>
+				<li><img src="image2.png"> 52,99€</a></li>
+				<li><img src="image4.png"> 17,99€</a></li>
+				
+				</div>
+		
+		</div>
+				<div class="maintext accessoire">
+			
+			<h2>Produit accesoire</h2>
+			
+			<li><img src="image5.png">Tenue pour mordant haute qualités 2000€</a></li>
+			<li><img src="image6.png"> Collier avec système gps  300€</a></li>
+			<li><img src="image7.png"> Harnais haute qualités 50€ </a></li>
+			<li><img src="image4.png"> Gamelle lente 12€ </a></li>
+			<li><img src="Image8distributeur.png"> 	Distributeur automatique 279€ </a></li>
+			<li><img src="varikennel.png"> Vari kennel 150€ </a></li>
+			<li><img src="niche.png"> niche d'interieur automatique 102€ </a></li>
+			</div>
+			
+			</div>
+		
+				</div>
+				<div class="maintext hygiène et soins">
+
+					<h2>Nos produits d'hygiène et soins</h2>	
+			 
+				<li><img src="dentrifice.png"> Dentrifice à la sauge 14.45€ 200g </a></li>
+				<li><img src="shampoing.png"> Shampoing problèmes de peau à l'avoine dorwest 14.60€ 250ml </a></li>
+				<li><img src="comprimé chien.png"> Comprimés chien haleine et dents biofood 5.50 € 90g (55 comprimés) </a></li>
+				<li><img src="soin des oreilles.png"> Soins des oreilles, Propolis, Calendula et Tea Tree propolia 6.90 € 30 ml </a></li>
+				<li><img src="stick à macher.png"> Sticks à macher WOOFBRUCH Lili's kitchen 7.80 € 13g </a></li>
+				<li><img src="bois de cerf.png"> Bois de cerf pour chien entier evident  "De 10.90 € à 32.90 €"</a></li>
+				
+				</div>
+		
+		
+		</div>
+
+		<br>
