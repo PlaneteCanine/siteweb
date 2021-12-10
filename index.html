@@ -7,7 +7,7 @@
   <link type="text/css" rel="stylesheet" href="css/mainstyle.css">
 </head>
 
-<body>
+<body onload="loadingscreen()">
 
   <!--
     Framework / "Bibliotheque - Outils" utilisé: Bootstrap 5 
@@ -58,35 +58,13 @@
             </li>
 
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">Prevention</a>
+              <a class="nav-link" href="./prevention.html">Prevention</a>
             </li>
-
-            <li class="nav-item dropdown px-3">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Boutique</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./shop.html#alimentation">
-                  <li>Alimentaire</li>
-                </a>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <a class="dropdown-item" href="./shop.html#hygiene">
-                  <li></li>Hygiène
-            </li></a>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <a class="dropdown-item" href="./shop.html#accessoire">
-              <li></li>Accessoire</li>
-            </a>
-          </ul>
-          </li>
 
           <li class="nav-item dropdown px-3">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              A Propos
+              L'entreprise
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Qui sommes nous ?</a></li>
@@ -101,11 +79,11 @@
           <li class="nav-item dropdown px-3">
             <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Se Connecter
+              Espace Client
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">S'enregistrer</a></li>
+              <li><a class="dropdown-item" href="#">Se Connecter</a></li>
             </ul>
           </li>
           </ul>
@@ -260,8 +238,9 @@
       <div class="col-2">
         <h5 class="text-light">A Propos</h5>
         <ul class="nav flex-column">
-          <li class="nav-item p-0"><a class="text-decoration-none text-primary" href="#">AAA</a></li>
-          <li class="nav-item p-0"><a class="text-decoration-none text-primary" href="#">AAA</a></li>
+          <li class="nav-item p-0"><a class="text-decoration-none text-primary" href="#">A Propos</a></li>
+          <li class="nav-item p-0"><a class="text-decoration-none text-primary" href="#">Qui sommes nous ?</a></li>
+          <li class="nav-item p-0"><a class="text-decoration-none text-primary" href="#">Nos Locaux</a></li>
           <li class="nav-item p-0"><a class="text-decoration-none text-primary" href="#">Nous Contacter</a></li>
         </ul>
       </div>
@@ -275,5 +254,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
+  <script src="./js/loadingscreen.js"></script>
 
 </body>

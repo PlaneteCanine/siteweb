@@ -13,18 +13,6 @@
     margin: auto;
 }
 
-#imagee
-{
-    text-align: center;
-}
-
-#Texte
-{  
-    font-size: 25px ;
-    color: white;
-    text-align: center ;
-    margin-bottom: 75px;
-}
 
 #Titre
 {
@@ -32,6 +20,38 @@
    color: white;
    text-align: center ;
    margin-bottom: 75px;
+   border-bottom: solid;
+}
+
+#Texte
+{  
+    font-size: 25px ;
+    color: rgb(64, 44, 155);
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+#imagee {
+    text-align: center;
+}
+
+#imagee img
+{
+    border: 3px solid rgb(38, 25, 95);
+    box-shadow: 7px 7px 2px black;
+}
+
+
+
+
+
+#Titre
+{
+   font-size: 50px ;
+   color: white;
+   text-align: center ;
+   margin-bottom: 75px;
+   border-bottom: solid;
 }
 
 #sous-titre2
@@ -68,7 +88,7 @@
     margin-top: 50px; 
 }
 
-row
+.row
 {
     border: white;
 }
