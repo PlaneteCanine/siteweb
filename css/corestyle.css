@@ -1,0 +1,314 @@
+/*   POSITION   */
+.container-fluid {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+
+}
+
+.col {
+    flex: 1 0 10%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*   Extras   */
+.bg-light {
+    background-color: white !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*   SPACING (MARGIN AND MADDING)   */
+
+
+/*  PADDING  */
+
+p-auto {
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+/* Padding Top */
+.pt-1 {
+
+}
+
+.pt-2 {
+    
+}
+
+.pt-3 {
+    
+}
+
+.pt-4 {
+    
+}
+
+.pt-5 {
+    
+}
+
+/* Padding Bottom */
+.pb-1 {
+
+}
+
+.pb-2 {
+
+}
+
+.pb-3 {
+
+}
+
+.pb-4 {
+
+}
+
+.pb-5 {
+
+}
+
+/* Padding Left  (ps-x)*/
+.ps-1 {
+
+}
+
+.ps-2 {
+    
+}
+
+.ps-3 {
+    
+}
+
+.ps-4 {
+    
+}
+
+.ps-5 {
+    
+}
+
+/* Padding Right (pe-x)*/
+.pe-1 {
+
+}
+
+.pe-1 {
+
+}
+
+.pe-1 {
+
+}
+
+.pe-1 {
+
+}
+
+.pe-1 {
+
+}
+
+/* Padding Top & Bottom */
+.py-1 {
+
+}
+
+.py-2 {
+
+}
+
+.py-3 {
+
+}
+
+.py-4 {
+
+}
+
+.py-5 {
+
+}
+
+/* Padding Left & Right */
+.px-1 {
+
+}
+
+.px-2 {
+
+}
+
+.px-3 {
+
+}
+
+.px-4 {
+
+}
+
+.px-5 {
+
+}
+
+/*  MARGIN  */
+
+/* Margin Top */
+.mt-1 {
+    
+}
+
+.mt-2 {
+    
+}
+
+.mt-3 {
+    
+}
+
+.mt-4 {
+    
+}
+
+.mt-5 {
+    
+}
+
+/* Margin Bottom */
+.mb-1 {
+
+}
+
+.mb-2 {
+
+}
+
+.mb-3 {
+
+}
+
+.mb-4 {
+
+}
+
+.mb-5 {
+
+}
+
+/* Margin Left  (ps-x)*/
+.ms-1 {
+
+}
+
+.ms-2 {
+    
+}
+
+.ms-3 {
+    
+}
+
+.ms-4 {
+    
+}
+
+.ms-5 {
+    
+}
+
+/* Margin Right (pe-x)*/
+.me-1 {
+
+}
+
+.me-1 {
+
+}
+
+.me-1 {
+
+}
+
+.me-1 {
+
+}
+
+.me-1 {
+
+}
+
+/* Margin Top & Bottom */
+.my-1 {
+
+}
+
+.my-2 {
+
+}
+
+.my-3 {
+
+}
+
+.my-4 {
+
+}
+
+.my-5 {
+
+}
+
+/* Margin Left & Right */
+.mx-1 {
+
+}
+
+.mx-2 {
+
+}
+
+.mx-3 {
+
+}
+
+.mx-4 {
+
+}
+
+.mx-5 {
+
+}
+
+
+.m-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}

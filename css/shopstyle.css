@@ -21,16 +21,14 @@ body {
     background-color: #663b1e;
 }
 
-#boutiquetable {
-    background-color: #bd9d71;
-}
-
-@keyframes scale-in-ver-center{0%{transform:scaleY(0);opacity:1}100%{transform:scaleY(1);opacity:1}}
-
 .pr-5 {
     padding-left: 5rem;
 }
 
 .pb-13 {
     padding-bottom: 13rem;
+}
+
+.img {
+    
 }
