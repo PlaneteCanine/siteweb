@@ -1,54 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap');
-
 body {
-    font-family: 'Liberation Serif';
+    margin: auto;
+}
+
+.navimg {
+    justify-content: center;
+
+    
+    display: flex;
+    flex-direction: row;
+    flex: 1, 0 10%;
+
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+
+    background-image: url("../img/navimage.png") !important;
+}
+
+#toplogo {
+    width: 10%;
+    z-index: 1;
+}
+
+#toptext {
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: white;
 }
 
 #navimg {
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
+    filter: blur(1px)
 }
 
-
 nav {
-    background-color: #663b1e;
+    margin: 0;
+    background-color: rgb(70, 70, 173);
+    padding-bottom: 3px;
 }
 
 nav ul {
-    position: sticky;
-
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 50px;
+    
     list-style: none;
+    display: flex;
 }
 
 nav ul li {
     text-align: center;
-    float: none;
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    float: left;
-}
-
-nav ul li:nth-child(3){
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: auto; /*Center nav elements*/
 }
 
 nav ul li a {
     text-align: center;
-    color: #bd9d71;
+    color: #dbb785;
     text-decoration: none;
+    font-size: 17px;
+    font-family:'Courier New', Courier, monospace;
+
 }
 
-.boutique {
-    background-color: #bd9d71;
+nav ul li a:hover {
+    animation: hoveraselected 5s infinite alternate;
+    border-bottom: 1px solid;
 }
 
-.image {
-    width: 40%;
+
+nav ul li a.active {
+    color: #24bb2c;
+}
+
+
+
+@keyframes hoveraselected {
+    0% {
+        color: #dbb785;
+    }
+    30% {
+        color: #cc9242;
+    }
+    60% {
+        color: #dbb785;
+    }
+    90% {
+        color: #cc9242;
+    }
+    100% {
+        color: #dbb785;
+    }
+}
+
+section {
+    padding: 1px;
 }
