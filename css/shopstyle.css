@@ -4,31 +4,3 @@ body {
     margin: auto;
     font-family: 'Liberation Serif';
 }
-
-#imagenav {
-    background-image: url("../img/navimage.png");
-}
-
-#navtext {
-    font-size: 100px;
-}
-
-#navlogo {
-    width: 10%;
-}
-
-.navbar {
-    background-color: #663b1e;
-}
-
-.pr-5 {
-    padding-left: 5rem;
-}
-
-.pb-13 {
-    padding-bottom: 13rem;
-}
-
-.img {
-    
-}
