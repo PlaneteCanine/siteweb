@@ -30,6 +30,7 @@ section {
 }
 
 #part2 {
+    padding-top: 5%;
     text-align: center;
     width: 40%;
 }
@@ -37,11 +38,15 @@ section {
 
 /* END SECTION 1 */
 
+
+/* SECTION 3 */
 #section3 {
     
     text-align: center;
 }
 
+
+/* END SECTION 3 */
 
 
 
@@ -80,6 +85,8 @@ section {
 #dentifrice {
     width: 40% !important;
 }
+/* END SECTION 4 */
+
 
 footer {
     margin-top: 0.01cm;

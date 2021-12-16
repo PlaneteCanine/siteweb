@@ -6,13 +6,15 @@ body {
 }
 
 .equipe {
-    background-color: #bd9d71; 
+    background-color: #856d4c; 
 
     padding-bottom: 60px;
+
+    border-bottom: 2px solid white;
 }
 
 .tableau {
-    background-color: #bd9d71; 
+    background-color: #856d4c; 
 
     padding-bottom: 60px;
 
