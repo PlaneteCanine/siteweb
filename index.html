@@ -4,10 +4,15 @@
 <head>
 
   <title>Planete Canine</title>
+
+  <!-- Page Icon -->
+  <link rel="icon" type="image/x-icon" href="./img/logo/icon.ico">
+
   <!-- Footer & Nav CSS -->
-  <link type="text/css" rel="stylesheet" href="css/mainstyle.css">
+  <link type="text/css" rel="stylesheet" href="./css/mainstyle.css">
   <!-- Page CSS -->
-  <link type="text/css" rel="stylesheet" href="css/indexstyle.css">
+  <link type="text/css" rel="stylesheet" href="./css/indexstyle.css">
+  <link type="text/css" rel="stylesheet" href="./css/caroussel.css">
 
 </head>
 
@@ -15,8 +20,8 @@
 
   <nav>
     <div class="navimg">
-        <img id="toplogo" src="./img/logo/logo-bgremoved.png">
-        <h1 id="toptext">Planete Canine</h1>
+      <img id="toplogo" src="./img/logo/logo-bgremoved.png">
+      <h1 id="toptext">Planete Canine</h1>
     </div>
 
     <ul>
@@ -29,7 +34,31 @@
   </nav>
 
   <section id="section1">
-    <p>aa</p>
+
+    <div class="part1">
+      <div class="carousel" id="karrouss">
+        <input type="radio" name="item2" value="1" checked>
+        <div>
+          <img src="./img/test/image.webp">
+        </div>
+      
+        <input type="radio" name="item2" value="2">
+        <div>
+           <img src="./img/test/556363.jpg">
+        </div>
+          
+        <input type="radio" name="item2" value="3">
+        <div>
+          <img src="./img/test/image.webp">
+        </div>
+      </div>  
+    </div>
+
+    <div id="part2">
+      <br>
+      <p>FEUFGEZ</p>
+    </div>
+
   </section>
 
   <section id="section2">
@@ -37,17 +66,59 @@
   </section>
 
   <section id="section3">
-
+    <p>aa</p>
   </section>
 
   <footer>
+    <div class="container">
+      <div class="footertext">
 
+
+        <div class="footercol">
+          <a href="#"><img src="./img/logo/logo-bgremoved.png"></a>
+        </div>
+
+        <div class="footeremptycol"></div>
+
+        <div class="footercol foottext">
+          <ul>
+            <p>Boutique</p>
+            <li><a href="">Alimentaire</a></li>
+            <li><a href="">Produits d'hygiènes</a></li>
+            <li><a href="">Accessoires</a></li>
+          </ul>
+        </div>
+
+        <div class="footercol foottext">
+          <ul>
+            <p>L'entreprise</p>
+            <li><a href="">L'Entreprise</a></li>
+            <li><a href="">Nos Locaux</a></li>
+            <li><a href="">Où nous trouver</a></li>
+            <li><a href="">Informations Légales</a></li>
+          </ul>
+        </div>
+
+        <div class="footercol foottext">
+          <ul>
+            <p>Autre</p>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">Termes & Condition d'utilisation</a></li>
+            <li><a href="mailto:societe@planete-canine.fr">Nous Contacter</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="copyright">
+        <p>&copy Planete Canine 2021 - All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
 
 
-  <script type="text/javascript" src="js/loadingscreen.js"></script>
-  
+  <script type="text/javascript" src="./js/loadingscreen.js"></script>
+
 </body>
 
 </html>

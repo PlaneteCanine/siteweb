@@ -4,194 +4,203 @@
 <head>
 	<title>Boutique</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="stylesheet" media="screen" type="text/css" href="./css/shopstyle.css">
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- Page Icon -->
+	<link rel="icon" type="image/x-icon" href="./img/logo/icon.ico">
+
+	<!-- Footer & Nav CSS -->
+	<link type="text/css" rel="stylesheet" href="./css/mainstyle.css">
+	<!-- Page CSS -->
+	<link rel="stylesheet" media="screen" type="text/css" href="./css/shopstyle.css">
 
 </head>
 
 <body>
 
-	<!-- Nav Bar -->
-	<div class="container-fluid">
 
-		<!--Partie logo image de la Navbar-->
-		<a id="logo" class="position-absolute pr-5 pb-3" href="#"><img src="./img/logo/logo-bgremoved.png" alt=""></a>
-
-		<div class="row" id="imagenav">
-			<div class="mb-3 m-auto text-light pb-13 pe-2" style="width: auto">
-				<h1 class="text-uppercase" id="navtext">Planete Canine</h1>
-			</div>
+	<nav>
+		<div class="navimg">
+			<img id="toplogo" src="./img/logo/logo-bgremoved.png">
+			<h1 id="toptext">Planete Canine</h1>
 		</div>
 
-		<!--Barre de navigation-->
-		<div class="row">
-			<nav class="pr-5 navbar navbar-expand shadow">
+		<ul>
+			<li><a href="./index.html">Acceuil</a></li>
+			<li><a class="active" href="./boutique.html">Boutique</a></li>
+			<li><a href="./prevention.html">Prevention</a></li>
+			<li><a href="./entreprise.html">Nous Localiser</a></li>
+			<li><a href="./client/index.html">Espace Client</a></li>
+		</ul>
+	</nav>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mx-auto mb-lg-0">
-
-						<li class="nav-item px-3">
-							<a class="nav-link active" aria-current="page" href="#">Acceuil</a>
-						</li>
-
-						<li class="nav-item dropdown px-3">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Boutique
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li>
-									<hr class="dropdown-divider">
-								</li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
-							</ul>
-						</li>
-
-						<li class="nav-item px-3">
-							<a class="nav-link" href="#">Prevention</a>
-						</li>
-
-						<li class="nav-item dropdown px-3">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Qui sommes nous ?
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li>
-									<hr class="dropdown-divider">
-								</li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
-							</ul>
-						</li>
-
-						<li class="nav-item dropdown px-3">
-							<a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Se Connecter
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</div>
-
-	<div class="container-fluid bg-light py-5">
-		<p class="text-center">Produits d'hygiène</p>
-		<div class="row text-center mx-auto my-auto py-3 px-5">
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/boisdecerf.png">
+	<div class="container container1">
+		<p>Produits d'hygiène</p>
+		<div class="listeproduithorizontale1">
+			<div class="produit">
+				<img class="img" src="./img/shop/hygiene//boisdecerf.png">
 				<p class="text-center">Bois de Cerf</p>
-				<p class="text-center">De 10.90 € à 32.90 €</p>			
+				<p class="text-center">De 10.90 € à 32.90 €</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/soin des oreilles.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/hygiene/soin des oreilles.png" alt="">
 				<p class="text-center">Soins des oreilles, Propolis, Calendula et Tea Tree propolia</p>
 				<p class="text-center">6.90 € 30 ml</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/stickamacher.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/hygiene/boisdecerf.png">
+				<p class="text-center">Bois de Cerf</p>
+				<p class="text-center">De 10.90 € à 32.90 €</p>
+			</div>
+
+			<div class="produit">
+				<img class="img" src="./img/shop/hygiene/stickamacher.png" alt="">
 				<p class="text-center">Sticks à macher WOOFBRUCH Lili's kitchen</p>
 				<p class="text-center">7.80 € 13g</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/comprimechien.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/hygiene/comprimechien.png" alt="">
+				<p class="text-center">Comprimés chien haleine et dents biofood</p>
+				<p class="text-center">5.50 € 90g</p>
+			</div>
+
+			<div class="produit">
+				<img class="img" src="./img/shop/hygiene/dentrifice.png" alt="">
+				<p class="text-center">Dentrifice à la sauge Dorwest</p>
+				<p class="text-center">5.50 € 90g</p>
+			</div>
+
+			<div class="produit">
+				<img class="img" src="./img/shop/hygiene/shampoing.png" alt="">
 				<p class="text-center">Comprimés chien haleine et dents biofood</p>
 				<p class="text-center">5.50 € 90g</p>
 			</div>
 		</div>
-	</div>	
+	</div>
 
 
-
-	<div class="container-fluid bg-light py-5">
-		<p class="text-center">Accessoires</p>
-		<div class="row text-center mx-auto my-auto py-3 px-5">
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Image5.jpg" alt="">
-				<p class="text-center">Tenue pour mordant haute qualités</p>
-				<p class="text-center">2000 €</p>	
-			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Image6.png" alt="">
+	<div class="container container2">
+		<p>Accessoires</p>
+		<div class="listeproduithorizontale2">
+			<div class="produit">
+				<img class="img" src="./img/shop/accessoire/Image6.png" alt="">
 				<p class="text-center">Collier avec système gps</p>
 				<p class="text-center">300 €</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Image7.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/accessoire/Image7.png" alt="">
 				<p class="text-center">Harnais haute qualités</p>
 				<p class="text-center">50€</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Imagegamelle.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/accessoire/Imagegamelle.png" alt="">
 				<p class="text-center">Gamelle lente</p>
 				<p class="text-center">12€ €</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Image8distributeur.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/accessoire/Image8distributeur.png" alt="">
 				<p class="text-center">Distributeur automatique</p>
 				<p class="text-center">279€</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/varikennel.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/accessoire/varikennel.png" alt="">
 				<p class="text-center">Vari kennel</p>
 				<p class="text-center"> 150€</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/niche.png" alt="">
+
+			<div class="produit">
+				<img class="img" src="./img/shop/accessoire/niche.png" alt="">
 				<p class="text-center"> niche d'interieur automatique</p>
 				<p class="text-center"> 102€</p>
-			</div>	
+			</div>
 		</div>
-	</div>	
+	</div>
 
 
-
-	<div class="container-fluid bg-light py-5">
-		<p class="text-center">Nos Produits Alimentaire</p>
-		<div class="row text-center mx-auto my-auto py-3 px-5">
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Image9.png" alt="">
+	<div class="container container3">
+		<p>Alimentation</p>
+		<div class="listeproduithorizontale3">
+			<div class="produit">
+				<img class="img" src="./img/shop/aliment/Image9.png" alt="">
 				<p class="text-center">Royal canin MAXI</p>
 				<p class="text-center">55,99€ 15kg</p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Image1.jpg" alt="">
+			<div class="produit">
+				<img class="img" src="./img/shop/aliment/Image1.jpg" alt="">
 				<p class="text-center">Royal canin MINI</p>
 				<p class="text-center">33,99€ 6kg </p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="img" src="./img/shop/Image2.png" alt="">
+			<div class="produit">
+				<img class="img" src="./img/shop/aliment/Image2.png" alt="">
 				<p class="text-center">Royal canin MEDIUM</p>
 				<p class="text-center">52,99€ 15kg </p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="" src="./img/shop/Image3.png" alt="">
+			<div class="produit">
+				<img class="" src="./img/shop/aliment//Image3.png" alt="">
 				<p class="text-center">Royal canin GIANT</p>
 				<p class="text-center">50,99€ 15kg </p>
 			</div>
-			<div class="col py-5 bg-primary">
-				<img class="" src="./img/shop/Image4.png" alt="">
+			<div class="produit">
+				<img class="" src="./img/shop/aliment/Image4.png" alt="">
 				<p class="text-center">Royal canin X-SMALL</p>
 				<p class="text-center">17,99€ 1,5kg </p>
 			</div>
 		</div>
-	</div>	
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="footertext">
 
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-	</script>
+				<div class="footercol">
+					<a href="#"><img src="./img/logo/logo-bgremoved.png"></a>
+				</div>
+
+				<div class="footeremptycol"></div>
+
+				<div class="footercol foottext">
+					<ul>
+						<p>Boutique</p>
+						<li><a href="">Alimentaire</a></li>
+						<li><a href="">Produits d'hygiènes</a></li>
+						<li><a href="">Accessoires</a></li>
+					</ul>
+				</div>
+
+				<div class="footercol foottext">
+					<ul>
+						<p>L'entreprise</p>
+						<li><a href="">L'Entreprise</a></li>
+						<li><a href="">Nos Locaux</a></li>
+						<li><a href="">Où nous trouver</a></li>
+						<li><a href="">Informations Légales</a></li>
+					</ul>
+				</div>
+
+				<div class="footercol foottext">
+					<ul>
+						<p>Autre</p>
+						<li><a href="#">Confidentialité</a></li>
+						<li><a href="#">Termes & Condition d'utilisation</a></li>
+						<li><a href="mailto:societe@planete-canine.fr">Nous Contacter</a></li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="copyright">
+				<p>&copy Planete Canine 2021 - All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+
 </body>
 
 </html>

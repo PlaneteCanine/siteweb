@@ -1,14 +1,20 @@
 body {
+    padding: 0;
+    margin: 0;
     margin: auto;
 }
 
-.navimg {
-    justify-content: center;
+html {
+    margin: 0;
+    padding: 0;
+}
 
+.navimg {
+
+    justify-content: center;
     
     display: flex;
     flex-direction: row;
-    flex: 1, 0 10%;
 
     padding-bottom: 5%;
     padding-top: 5%;
@@ -32,26 +38,35 @@ body {
 }
 
 nav {
-    margin: 0;
-    background-color: rgb(70, 70, 173);
     padding-bottom: 3px;
+
+    margin: 0;
+
+    background-color: rgb(70, 70, 173);
+    text-align: center;
 }
 
 nav ul {
     position: sticky;
     top: 1px;
-  
+
+
+
     list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+
+    display: inline-block;
 }
 
 nav ul li {
     text-align: center;
     margin: auto; /*Center nav elements*/
-    float: center;
+    float: left;
+    padding-left: 50px;
 }
+
 
 nav ul li a {
     display: block;
@@ -66,9 +81,11 @@ nav ul li a {
 
 }
 
+
+
 nav ul li a:hover:not(.active) {
     animation: hoveraselected 5s infinite alternate;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 
 
@@ -104,6 +121,67 @@ nav ul ul li {
     }
 }
 
-footer {
+/** Footer Position / Spacing & Padding */
+.container {
+    margin-left: 6%;
+    margin-right: 6%;
+}
 
+footer {
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(22, 21, 21);
+}
+
+.footercol {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.footeremptycol {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footertext {
+    border-bottom: 1px solid white;
+    display: flex;
+}
+/**   END  **/
+
+
+.foottext {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.foottext ul {
+    text-align: center;
+    margin: auto;
+    
+}
+
+.foottext ul li {
+    width: auto;
+    list-style: none;
+
+}
+
+.footertext ul li:not(:last-child){
+    margin-bottom: 13px;
+}
+
+.foottext ul li a {
+    margin: auto;
+    text-align: center;
+    
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
 }
