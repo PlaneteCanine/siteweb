@@ -1,0 +1,81 @@
+@import url(https://allfont.net/allfont.css?fonts=liberation-serif);
+
+body {
+    margin: auto;
+    display: grid;
+}
+
+.equipe {
+    background-color: #bd9d71; 
+
+    padding-bottom: 60px;
+}
+
+.photoequipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photoequipe figure {
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.photoequipe figure figcaption {
+    font-family: 'Liberation Serif', arial;
+}
+
+
+
+#Titre
+{
+   font-size: 50px ;
+   color: white;
+   text-align: center ;
+   margin-bottom: 75px;
+   border-bottom: solid;
+}
+
+#sous-titre2
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Liberation-Serif';
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;   
+}
+
+#sous-titre
+{
+    color: white;
+    font-size: 35px;
+    font-family: 'Liberation-Serif';
+    text-align: left;
+    margin-left: 20px   
+}
+
+#équipe img
+{
+    padding-left: 10px;   
+}
+
+#sous-Texte
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Liberation-Serif';
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px; 
+}
+
+
+footer {
+    margin-top: 0 !important;
+}
+
+

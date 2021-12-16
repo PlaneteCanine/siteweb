@@ -3,122 +3,110 @@
 
 <head>
   <title> Planète Canine</title>
-  <link rel="stylesheet" href="./css/preventionstyle.css">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link type="text/css" rel="stylesheet" href="css/mainstyle.css">
+  <!-- Page Icon -->
+  <link rel="icon" type="image/x-icon" href="./img/logo/icon.ico">
+
+  <!-- Footer & Nav CSS -->
+  <link type="text/css" rel="stylesheet" href="./css/mainstyle.css">
+
+  <!-- Page CSS -->
+  <link type="text/css" rel="stylesheet" href="./css/preventionstyle.css">
 
 </head>
 
 <body>
-  <!-- Nav Bar -->
-  <div class="container-fluid">
 
-    <!--Partie logo image de la Navbar-->
-    <a id="logo" class="position-absolute pr-5 pb-3" href="#"><img src="img/logo-removebg-preview.png" alt=""></a>
-
-    <div class="row" id="imagenav">
-      <div class="mb-3 m-auto text-light pb-13 pe-2" style="width: auto">
-        <h1 class="text-uppercase" id="navtext">Planete Canine</h1>
-      </div>
+  <nav>
+    <div class="navimg">
+      <img id="toplogo" src="./img/logo/logo-bgremoved.png">
+      <h1 id="toptext">Planete Canine</h1>
     </div>
 
-    <!--Barre de navigation-->
-    <div class="row">
-      <nav class="pr-5 navbar navbar-expand shadow">
+    <ul>
+      <li><a href="#">Acceuil</a></li>
+      <li><a href="./boutique.html">Boutique</a></li>
+      <li><a class="active" href="./prevention.html">Prevention</a></li>
+      <li><a href="./entreprise.html">Nous Localiser</a></li>
+      <li><a href="./client/index.html">Espace Client</a></li>
+    </ul>
+  </nav>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-lg-0">
 
-            <li class="nav-item px-3">
-              <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
-            </li>
+  <div class="preventiontext">
+    <p id="Titre">Prévention</p>
+    <p id="Texte">
+      Notre pays regroupe la plus grande population animale de l’Union Européenne avec près de 61,6
+      millions d’animaux de compagnie, plus d’un foyer sur deux possède un chien.
 
-            <li class="nav-item dropdown px-3">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Boutique
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
+      Pourtant cela fait également de nous le premier pays de l’Union Européenne à abandonner ses animaux de
+      compagnies, 100 000 animaux sont abandonnés par an en France et dans cela 60 000 le sont à l’approche des
+      vacances d’été.
 
-            <li class="nav-item px-3">
-              <a class="nav-link" href="#">Prevention</a>
-            </li>
+      Prendre un chien n’est pas seulement acheter un jouet mais c’est de faire une place de plus dans notre foyer,
+      une bouche de plus à nourrir, ce n’est pas un cadeau de noël dont on se lasse.
 
-            <li class="nav-item dropdown px-3">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Qui sommes nous ?
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
+      Le budget à prévoir pour un chien par an est d’au moins 800€, avec les frais alimentaires, vétérinaires,
+      accessoires et autres.
 
-            <li class="nav-item dropdown px-3">
-              <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Se Connecter
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
+      Le chien est un réel membre de la famille dont il faut se soucier avec attention.
+
+
+      Pour rappel, l’abandon d’un animal de compagnie est assimilable à un acte de cruauté passible de 2 ans
+      d’emprisonnement et 30 000€ d’amendes (article 521-1 du code pénal).
+
+      <img id="imagee" src="./img/utils/abandon.jpg">
+
+    </p>
+
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footertext">
+
+
+        <div class="footercol">
+          <a href="#"><img src="./img/logo/logo-bgremoved.png"></a>
+        </div>
+
+        <div class="footeremptycol"></div>
+
+        <div class="footercol foottext">
+          <ul>
+            <p>Boutique</p>
+            <li><a href="">Alimentaire</a></li>
+            <li><a href="">Produits d'hygiènes</a></li>
+            <li><a href="">Accessoires</a></li>
           </ul>
         </div>
-      </nav>
-    </div>
-  </div>
 
+        <div class="footercol foottext">
+          <ul>
+            <p>L'entreprise</p>
+            <li><a href="">L'Entreprise</a></li>
+            <li><a href="">Nos Locaux</a></li>
+            <li><a href="">Où nous trouver</a></li>
+            <li><a href="">Informations Légales</a></li>
+          </ul>
+        </div>
 
-  <div class="container-fluid py-5 preventiontext" style="background-color: #bd9d71;                  ">
-    <div class="container py-5 shadow">
-      <p id="Titre">
-        Prévention
-      </p>
-      <p id="Texte">Notre pays regroupe la plus grande population animale de l’Union Européenne avec près de 61,6
-        millions d’animaux de compagnie, plus d’un foyer sur deux possède un chien.
+        <div class="footercol foottext">
+          <ul>
+            <p>Autre</p>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">Termes & Condition d'utilisation</a></li>
+            <li><a href="mailto:societe@planete-canine.fr">Nous Contacter</a></li>
+          </ul>
+        </div>
 
-        Pourtant cela fait également de nous le premier pays de l’Union Européenne à abandonner ses animaux de
-        compagnies, 100 000 animaux sont abandonnés par an en France et dans cela 60 000 le sont à l’approche des
-        vacances d’été.
-
-        Prendre un chien n’est pas seulement acheter un jouet mais c’est de faire une place de plus dans notre foyer,
-        une bouche de plus à nourrir, ce n’est pas un cadeau de noël dont on se lasse.
-
-        Le budget à prévoir pour un chien par an est d’au moins 800€, avec les frais alimentaires, vétérinaires,
-        accessoires et autres.
-
-        Le chien est un réel membre de la famille dont il faut se soucier avec attention.
-
-
-        Pour rappel, l’abandon d’un animal de compagnie est assimilable à un acte de cruauté passible de 2 ans
-        d’emprisonnement et 30 000€ d’amendes (article 521-1 du code pénal).
-      </p>
-      <div id="imagee">
-        <img src="./img/utils/abandon.jpg">
+      </div>
+      <div class="copyright">
+        <p>&copy Planete Canine 2021 - All rights reserved.</p>
       </div>
     </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-  </script>
+  </footer>
 
 
 </body>
