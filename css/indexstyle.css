@@ -37,6 +37,13 @@ section {
 
 /* END SECTION 1 */
 
+#section3 {
+    
+    text-align: center;
+}
+
+
+
 
 /* SECTION 4  */
 #section4 {
@@ -56,13 +63,23 @@ section {
     width: 40%;
 }
 
-.section4 .colonneproduit p a {
+#section4 .colonneproduit p a {
     list-style: none;
     text-decoration: none;
     font-family: 'Liberation Serif', arial;
 }
 
+#croquette {
+    width: 20%;
+}
 
+#gamelle {
+    width: 69% !important;
+}
+
+#dentifrice {
+    width: 40% !important;
+}
 
 footer {
     margin-top: 0.01cm;

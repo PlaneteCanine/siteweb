@@ -1,0 +1,23 @@
+
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section1 figure {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-right: 127px;
+    width: 30%;
+}
+
+#section1 figure figcaption {
+    padding-left: 110px;
+    text-align: center;
+}

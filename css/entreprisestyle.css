@@ -11,6 +11,21 @@ body {
     padding-bottom: 60px;
 }
 
+.tableau {
+    background-color: #bd9d71; 
+
+    padding-bottom: 60px;
+
+}
+
+.tableau table, th, td, tr {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+
+}
+
 .photoequipe {
     display: flex;
     flex-direction: row;
@@ -41,6 +56,8 @@ body {
 
 #sous-titre2
 {
+    padding-left: 100px;
+
     color: white;
     font-size: 20px;
     font-family: 'Liberation-Serif';
@@ -51,6 +68,8 @@ body {
 
 #sous-titre
 {
+    text-align: center;
+
     color: white;
     font-size: 35px;
     font-family: 'Liberation-Serif';

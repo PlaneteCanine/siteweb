@@ -3,6 +3,7 @@
 body {
     margin: auto;
     font-family: 'Liberation Serif';
+    background-color: #533306;
 }
 
 .container {
@@ -70,7 +71,7 @@ div[class*="container"] .produit p {
     text-align: center;
     padding-top: 6px;
     padding-bottom: 6px;
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px black;
     background-color: #dbb785;
     border-radius: 10px;
 }
@@ -79,7 +80,7 @@ div[class*="container"] .produit p {
     text-align: center;
     padding-top: 6px;
     padding-bottom: 6px;
-    box-shadow: 5px 5px 5px coral;
+    box-shadow: 5px 5px 5px black;
     background-color: #dbb785;
     border-radius: 10px;
 }
@@ -88,7 +89,7 @@ div[class*="container"] .produit p {
     text-align: center;
     padding-top: 6px;
     padding-bottom: 6px;
-    box-shadow: 5px 5px 5px yellowgreen;
+    box-shadow: 5px 5px 5px black;
     background-color: #dbb785;
     border-radius: 10px;
 }
