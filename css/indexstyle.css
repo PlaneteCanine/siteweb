@@ -1,7 +1,16 @@
+@import url(https://allfont.net/allfont.css?fonts=liberation-serif);
+
+
+body {
+    font-family: 'Liberation Serif', arial;
+}
+
 section {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
 
 
 /* Touche a la section 1 */
@@ -29,5 +38,32 @@ section {
 /* END SECTION 1 */
 
 
+/* SECTION 4  */
+#section4 {
+    text-align: center;
+    background-color: #bd9d71;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#section4 .colonneproduit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#section4 .colonneproduit img {
+    width: 40%;
+}
+
+.section4 .colonneproduit p a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Liberation Serif', arial;
+}
 
 
+
+footer {
+    margin-top: 0.01cm;
+}

@@ -1,3 +1,6 @@
+@import url(https://allfont.net/allfont.css?fonts=liberation-serif);
+
+
 body {
     padding: 0;
     margin: 0;
@@ -32,7 +35,7 @@ html {
 
 #toptext {
     z-index: 1;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Liberation Serif', arial;
     font-size: 60px;
     color: white;
 }
@@ -79,7 +82,7 @@ nav ul li a {
     color: #dbb785;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Liberation Serif', arial;
 
 }
 
